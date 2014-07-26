@@ -15,7 +15,6 @@ Where username should be your phonenumber.
 
 ```php
 print("<pre>".print_r($data,true)."</pre>");
-
 ```
 
 Woud return:
