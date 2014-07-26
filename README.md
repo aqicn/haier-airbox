@@ -1,7 +1,7 @@
 haier-airbox
 ============
 
-Scripts for extracting real-time data from Haier's AirBox
+Scripts for extracting real-time data from Haier's AirBox. For more information, check the aqicn experiment page at http://aqicn.org/experiments/haier-air-box/
 
 Usage
 ----
