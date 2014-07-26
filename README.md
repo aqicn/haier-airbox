@@ -7,12 +7,31 @@ Usage
 ----
 
 ```php
-
 $reader = new HaierAirBoxReader("username","password");
 $data = $reader->getData();
+```
 
+Where username should be your phonenumber.
+
+```php
 print("<pre>".print_r($data,true)."</pre>");
 
+```
+
+Woud return:
+
+```php
+stdClass Object
+(
+    [dateTime] => 20140726103848
+    [temperature] => 668
+    [humidity] => 384
+    [pm25] => 20
+    [voc] => 20
+    [mark] => 88
+    [markInfo] => 空气很棒 
+    [rank] => 0
+)
 ```
 
 Comment
